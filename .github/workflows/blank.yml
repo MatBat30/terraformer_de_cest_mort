@@ -52,7 +52,7 @@ jobs:
     - name : humanvalidation 
       uses: trstringer/manual-approval@v1
       with:
-          secret: ${{ secrets.TOKEN }}
+          secret: ${{ secrets.TOKENGIT }}
           approvers: ${{ secrets.APPROVER }}
           minimum-approvals: 1
           issue-title: "Mais qui est le plus beau ?"
