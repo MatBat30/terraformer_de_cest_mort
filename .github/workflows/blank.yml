@@ -53,7 +53,7 @@ jobs:
       uses: trstringer/manual-approval@v1
       with:
           secret: ${{ secrets.TOKENGIT }}
-          approvers: ${{ secrets.APPROVER }}
+          approvers: MatBat30
           minimum-approvals: 1
           issue-title: "Mais qui est le plus beau ?"
           issue-body: "C'est moi ! (ecrit 'yes' pour approuver)"
